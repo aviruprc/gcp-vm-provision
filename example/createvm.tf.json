@@ -1,0 +1,17 @@
+{
+  "module": [
+    {
+      "gcpvm": [
+        {
+          "zone": "us-west1-c",
+          "projectid": "v2agent-9423a",
+          "region": "us-west1",
+          "source": "../createvm",
+          "machinetype": "n2-standard-2",
+          "image": "debdian-cloud/debian-9",
+          "vmnos": "2"
+        }
+      ]
+    }
+  ]
+}
