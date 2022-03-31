@@ -8,7 +8,7 @@
           "region": "us-west1",
           "source": "../createvm",
           "machinetype": "n2-standard-2",
-          "image": "debdian-cloud/debian-9",
+          "image": "debian-cloud/debian-9",
           "vmnos": "2"
         }
       ]
