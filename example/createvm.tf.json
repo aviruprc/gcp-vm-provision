@@ -11,7 +11,7 @@
           "image": "debian-cloud/debian-9",
           "vmnos": "1",
           "gce_ssh_user": "aviruproychowdhury",
-          "gce_ssh_pub_key_file": "../extras/id_rsa.pub"
+          "gce_ssh_pub_key_file": "/var/lib/jenkins/.ssh/id_rsa.pub"
         }
       ]
     }
