@@ -9,7 +9,9 @@
           "source": "../createvm",
           "machinetype": "n2-standard-2",
           "image": "debian-cloud/debian-9",
-          "vmnos": "2"
+          "vmnos": "1",
+          "gce_ssh_user": "aviruproychowdhury",
+          "gce_ssh_pub_key_file": "../extras/id_rsa.pub"
         }
       ]
     }

@@ -56,3 +56,15 @@ variable "vmnos" {
   default     = "2"
   nullable = false 
 }
+
+variable "gce_ssh_user" {
+  description = "User for Ansible Playbook"
+  type        = string
+  default     = "aviruproychowdhury"
+}
+
+variable "gce_ssh_pub_key_file" {
+  description = "Key Path for Ansible Playbook"
+  type        = string
+  default     = "../extras/id_rsa.pub"
+}
